@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav none">
       <div class="container">
         <div class="nav__row">
           <div class="logo">
@@ -34,15 +34,27 @@
       </div>
     </nav>
 
-    <header class="header">
+    <header class="header none">
       <div class="container">
         <div class="header__row">
           <div class="header__text">
-            <h1 class="header__title">Find your custom matched commercial real estate space.</h1>
+            <h1 class="header__title">
+              Find your custom matched commercial real estate space.
+            </h1>
             <p>
               In oculis quidem exercitus quid ex ea consequatur? autem vel eum
               fugiat, quo pertineant ero tibique
             </p>
+            <form class="header__form form">
+              <label class="form__label">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Your email address"
+                />
+                <button class="form__button button">Subscribe</button>
+              </label>
+            </form>
           </div>
           <div class="header__img">
             <img src="./img/header/img.jpg" alt="header" />
@@ -50,5 +62,40 @@
         </div>
       </div>
     </header>
+
+    <section class="clients none">
+      <div class="container">
+        <div class="clients__row">
+          <img src="./img/clients/01.svg" alt="Logo" />
+          <img src="./img/clients/02.svg" alt="Logo" />
+          <img src="./img/clients/03.svg" alt="Logo" />
+          <img src="./img/clients/04.svg" alt="Logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="objects">
+      <div class="container">
+        <div class="objects__row">
+          <div class="objects__img">Images</div>
+          <div class="objects__text">
+            <h2 class="objects__title title">We provide best space for you!</h2>
+
+            <p>
+              Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+              ea quid est et via procedat oratio quaerimus.
+            </p>
+
+            <p>
+              quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc
+              epicurus in ea commodi consequatur?
+            </p>
+
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
   </body>
 </html>
