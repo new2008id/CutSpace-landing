@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <nav class="nav none">
+    <nav class="nav ">
       <div class="container">
         <div class="nav__row">
           <div class="logo">
@@ -34,7 +34,7 @@
       </div>
     </nav>
 
-    <header class="header none">
+    <header class="header ">
       <div class="container">
         <div class="header__row">
           <div class="header__text">
@@ -63,7 +63,7 @@
       </div>
     </header>
 
-    <section class="clients none">
+    <section class="clients ">
       <div class="container">
         <div class="clients__row">
           <img src="./img/clients/01.svg" alt="Logo" />
@@ -74,10 +74,35 @@
       </div>
     </section>
 
-    <section class="objects">
-      <div class="container">
+    <section class="objects ">
+      <div class="container container--fluid container--no-padding">
         <div class="objects__row">
-          <div class="objects__img">Images</div>
+          <!-- objects__img -->
+
+          <div class="objects__img">
+            <div class="img-card img-card--rounded">
+              <img src="./img/cards/01.jpg" class="img-card__img" alt="iMAGE" />
+            </div>
+
+            <div class="img-card">
+              <img src="./img/cards/02.jpg" class="img-card__img" alt="iMAGE" />
+
+              <div class="img-card__info">
+                <div class="card-info">
+                  <div class="card-info__icon">
+                    <img src="./img/icons/building.svg" alt="" />
+                  </div>
+                  <div class="card-info__text">
+                    <h3 class="card-info__title">Twelve West Lake</h3>
+                    <p>Space for up to 150 people</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- objects__text -->
+
           <div class="objects__text">
             <h2 class="objects__title title">We provide best space for you!</h2>
 
@@ -91,7 +116,31 @@
               epicurus in ea commodi consequatur?
             </p>
 
-            <a href="#" class="button">Learn more</a>
+            <a href="#" class="objects__button button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta__block">
+          <div class="cta__img">
+            <img src="./img/cta/dashboard.jpg" alt="dashboard" />
+          </div>
+
+          <!-- cta__text -->
+
+          <div class="cta__text">
+            <h2 class="cta__title title ">Start using our product</h2>
+            <p>
+              Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+            </p>
+
+            <div class="cta__buttons-row">
+              <a href="#" class="button">Contact Us</a>
+              <button class="button button--white button--play">Watch now</button>
+            </div>
           </div>
         </div>
       </div>
