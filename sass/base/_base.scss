@@ -23,6 +23,17 @@ body {
   }
 }
 
+.visually-hidden {
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
 .none {
   display: none;
 }
