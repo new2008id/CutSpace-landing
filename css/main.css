@@ -442,4 +442,46 @@ body {
   margin-bottom: 25px;
 }
 
+.benefits {
+  padding-bottom: 110px;
+}
+
+.benefits__heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 35px;
+}
+
+.benefit-item {
+  text-align: center;
+}
+.benefit-item__img {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.benefit-item__img circle {
+  fill: rgba(88, 190, 191, 0.2);
+  transition: fill .2s ease-in;
+}
+.benefit-item__img path, .benefit-item__img ellipse {
+  fill: #58bebf;
+  transition: fill .2s ease-in;
+}
+.benefit-item:hover .benefit-item__img circle {
+  fill: #F78434;
+}
+.benefit-item:hover .benefit-item__img path, .benefit-item:hover .benefit-item__img ellipse {
+  fill: #fff;
+}
+
+.benefit-item__title {
+  margin-bottom: 2px;
+  font-size: 28px;
+}
+
 /*# sourceMappingURL=main.css.map */
