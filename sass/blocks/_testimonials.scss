@@ -18,7 +18,20 @@
 }
 
 .testimonials__row {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  column-gap: 30px;
 
+  &:after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    width: 80px;
+    height: 80px;
+    background-image: url('./../img/Testimonial/design element.svg');
+    background-repeat: no-repeat;
+
+  }
 }

@@ -72,5 +72,10 @@
   font-weight: 700;
 }
 .card-testimonial__city {
-  color: #f78434;
+  color: #58BEBF;
+  transition: color .2s ease-in;
+
+  .card-testimonial:hover & {
+    color:#f78434;
+  }
 }
